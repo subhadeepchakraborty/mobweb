@@ -1,3 +1,4 @@
+<?php echo 'knj'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
