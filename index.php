@@ -14,13 +14,13 @@
     <title>MobWebGuru Technologies</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="fontawesome.css">
+    <link rel="stylesheet" href="templatemo-space-dynamic.css">
+    <link rel="stylesheet" href="animated.css">
+    <link rel="stylesheet" href="owl.css">
   </head>
 
 <body>
@@ -35,7 +35,7 @@
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
+            <a href="index.php" class="logo">
               <h4>MOBWEBGURU<span>TECHNOLOGIES</span></h4>
             </a>
             <ul class="nav">
@@ -71,7 +71,7 @@
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/banner-right-image.png" alt="team meeting">
+                <img src="banner-right-image.png" alt="team meeting">
               </div>
             </div>
           </div>
@@ -85,7 +85,7 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="left-image wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
-            <img src="assets/images/about-left-image.png" alt="person graphic">
+            <img src="about-left-image.png" alt="person graphic">
           </div>
         </div>
         <div class="col-lg-8 align-self-center">
@@ -94,7 +94,7 @@
               <div class="col-lg-6">
                 <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                   <div class="icon">
-                    <img src="assets/images/service-icon-01.png" alt="reporting">
+                    <img src="service-icon-01.png" alt="reporting">
                   </div>
                   <div class="right-text">
                     <h4>Mobile Applications</h4>
@@ -105,7 +105,7 @@
               <div class="col-lg-6">
                 <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
                   <div class="icon">
-                    <img src="assets/images/service-icon-02.png" alt="">
+                    <img src="service-icon-02.png" alt="">
                   </div>
                   <div class="right-text">
                     <h4>Website or Web Development</h4>
@@ -116,7 +116,7 @@
               <div class="col-lg-6">
                 <div class="item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
                   <div class="icon">
-                    <img src="assets/images/service-icon-03.png" alt="">
+                    <img src="service-icon-03.png" alt="">
                   </div>
                   <div class="right-text">
                     <h4>IOT & Ai</h4>
@@ -138,7 +138,7 @@
       <div class="row">
         <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
           <div class="left-image">
-            <img src="assets/images/services-left-image.png" alt="">
+            <img src="services-left-image.png" alt="">
           </div>
         </div>
         <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
@@ -198,7 +198,7 @@
                 <p>Less Budget More Quality Software development</p>
               </div>
               <div class="showed-content">
-                <img src="assets/images/company-logo.png" alt="">
+                <img src="company-logo.png" alt="">
               </div>
             </div>
           </a>
@@ -211,7 +211,7 @@
                 <p>2 months maintenance free</p>
               </div>
               <div class="showed-content">
-                <img src="assets/images/company-logo.png" alt="">
+                <img src="company-logo.png" alt="">
               </div>
             </div>
           </a>
@@ -224,7 +224,7 @@
                 <p>How to improve software quality.</p>
               </div>
               <div class="showed-content">
-                <img src="assets/images/company-logo.png" alt="">
+                <img src="company-logo.png" alt="">
               </div>
             </div>
           </a>
@@ -236,7 +236,7 @@
                 <h4>Any Many more...</h4>
               </div>
               <div class="showed-content">
-                <img src="assets/images/company-logo.png" alt="">
+                <img src="company-logo.png" alt="">
               </div>
             </div>
           </a>
@@ -287,7 +287,7 @@
               </div>
             </div>
             <div class="contact-dec">
-              <img src="assets/images/contact-decoration.png" alt="">
+              <img src="contact-decoration.png" alt="">
             </div>
           </form>
         </div>
@@ -307,21 +307,11 @@
     </div>
   </footer>
   <!-- Scripts -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/animation.js"></script>
-  <script src="assets/js/imagesloaded.js"></script>
-  <script src="assets/js/templatemo-custom.js"></script>
-  <script>
-  var nameValue = document.getElementById("name").value;
-  var nameValue = document.getElementById("email").value;
-  var nameValue = document.getElementById("message").value;
-  document.getElementById('sub').onclick = () => {
-      myFunction();
-    }
-    function myFunction(){
-      alert("button clicked");
-    };
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="owl-carousel.js"></script>
+  <script src="animation.js"></script>
+  <script src="imagesloaded.js"></script>
+  <script src="templatemo-custom.js"></script>
 </body>
 </html>
